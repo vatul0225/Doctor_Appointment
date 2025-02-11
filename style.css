@@ -1,0 +1,399 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/*-------Navbar and Image-------- */
+
+.logo {
+    position: absolute;
+    width: 300px;
+    font-size: 50px;
+    padding: 20px 0px 20px 80px;
+}
+
+.logo h1 {
+    color: green;
+}
+
+.oo {
+    color: red;
+}
+
+.navitems {
+    position: relative;
+    background-color: #E1E4EB;
+    justify-content: end;
+}
+
+.navitems ul {
+    display: flex;
+    justify-content: end;
+    text-decoration: none;
+    gap: 30px;
+    align-items: center;
+    padding: 20px 30px 20px 0px;
+}
+
+.navitems ul li {
+    list-style: none;
+}
+
+.navitems ul li a {
+    text-decoration: none;
+    color: rgb(87, 87, 87);
+    font-size: 23px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+}
+
+.navitems ul li a:hover {
+    color: black;
+}
+
+.login {
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.image img {
+    position: relative;
+    background-size: cover;
+    width: 100%;
+    height: 915px;
+}
+
+.image .content h1 {
+    position: absolute;
+    font-size: 5.1rem;
+    font-weight: 700;
+    font-family: "lora", serif;
+    z-index: 1000;
+    margin: 310px 0px 0px 150px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 15%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 3rem;
+    height: 3rem;
+    background-color: rgb(42, 236, 110);
+    border-radius: 3rem;
+}
+
+/* ------------About----------- */
+
+.about {
+    background-color: #FFFFFF;
+    display: flex;
+}
+
+.about_img {
+    padding: 200px 50px 200px 150px;
+}
+
+.about_img img {
+    border-radius: 10px;
+}
+
+.about_content {
+    background-color: #FFFFFF;
+    padding: 200px 60px 100px 100px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+}
+
+.about_content h1 {
+    font-size: 4rem;
+}
+
+/* ------------Features----------- */
+
+.features {
+    position: relative;
+    background-image: url("images/bg-icon.png");
+    background-color: #F7F8FD;
+    height: 1200px;
+}
+
+.features .box1 {
+    position: absolute;
+    background-color: black;
+    height: 600px;
+}
+
+.features div h1 {
+    color: white;
+    font-size: 4rem;
+    align-items: center;
+    text-align: center;
+    padding: 100px 0px 0px 0px;
+}
+
+.features div p {
+    color: white;
+    font-size: 1.4rem;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 0px 120px 150px 120px;
+}
+
+.cards div {
+    height: 60vh;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.cards div img {
+    padding: 20px 30px 0px 30px;
+}
+
+.cards div h2 {
+    text-align: center;
+}
+
+.cards div p {
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px 20px 0px 20px;
+}
+
+/* ------------Gallery----------- */
+
+.gallery {
+    position: relative;
+    background-image: url("images/bg-icon.png");
+    background-color: #F7F8FD;
+    height: 1200px;
+    overflow: hidden;
+}
+
+.gallery .box1 {
+    position: absolute;
+    background-color: black;
+    height: 600px;
+    width: 100%;
+}
+
+.gallery div h1 {
+    color: white;
+    font-size: 4rem;
+    align-items: center;
+    text-align: center;
+    padding: 100px 0px 0px 0px;
+}
+
+.gallery div p {
+    color: white;
+    font-size: 1.4rem;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.gallery .cards {
+    display: flex;
+    gap: 30px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    padding: 10px 0;
+    height: 500px;
+    padding: 0px 20px 0px 20px;
+    border-radius: 10px;
+}
+
+.gallery .cards::-webkit-scrollbar {
+    display: none;
+}
+
+.gallery .cards div {
+    background-color: white;
+    border-radius: 10px;
+}
+
+.gallery .cards div img {
+    padding: 0px 0px 0px 0px;
+    width: 487px;
+    height: 500px;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery .cards div img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+
+}
+
+
+/*---------- Contact ---------  */
+
+.section7 {
+    padding-bottom: 200px;
+    background-color: #E1E4EB;
+}
+
+.section7 p {
+    color: black;
+    font-size: 23px;
+}
+
+.h3 {
+    color: black;
+    margin-left: 70px;
+    font-size: 40px;
+    font-weight: 900;
+    font-style: normal;
+    padding-top: 30px;
+}
+
+.contact {
+    position: relative;
+    height: 600px;
+    padding: 40px 10px 40px 10px
+}
+
+.contact1 {
+    position: absolute;
+    margin: 100px 0px 0px 100px;
+    width: 400px;
+}
+
+.contact0 {
+    color: black;
+    font-size: 40px;
+}
+
+.address {
+    margin: 50px 0px 0px 0px;
+}
+
+.ad1 {
+    color: grey;
+    font-size: 20px;
+}
+
+.ad2 {
+    color: white;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.contact2 {
+    position: absolute;
+    left: 50%;
+    margin: 100px 0px 0px 70px;
+}
+
+.section7 button {
+    padding: 15px 245px 15px 245px;
+    margin-top: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: 2px solid orange;
+    background-color: transparent;
+    color: black;
+    font-weight: bold;
+    transition: 0.5s all ease;
+}
+
+.section7 button:hover {
+    background-color: orange;
+    color: black;
+}
+
+.input {
+    height: 50px;
+}
+
+.name {
+    padding: 0px 0px 0px 26px;
+    height: 40px;
+    width: 251px;
+    justify-content: space-between;
+    margin: 20px 33px 20px 0px;
+    border-radius: 5px;
+    font-size: 20px;
+    border: black;
+}
+
+.message {
+    width: 538px;
+    height: 160px;
+    margin-top: 50px;
+    border-radius: 5px;
+    padding: 20px 0px 0px 20px;
+    font-size: 22px;
+    border: black;
+}
+
+/*---------- Footer ---------  */
+
+.footer {
+    background-color: black;
+    color: #fff;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-family: Arial, sans-serif;
+}
+
+.footer-section {
+    flex: 1 1 30%;
+    margin: 10px;
+    min-width: 200px;
+}
+
+.footer h3 {
+    color: white;
+    font-size: 1.8em;
+    margin-top: 50px;
+}
+
+.footer p,
+.footer a {
+    font-size: 1.1em;
+    color: #f0f0f0;
+    text-decoration: none;
+    line-height: 1.5em;
+}
+
+.footer a:hover {
+    color: #FFD700;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 5px;
+    color: #FFD700;
+}
+
+.fun-fact {
+    font-style: italic;
+    font-size: 0.85em;
+    background-color: rgb(54, 53, 53);
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
